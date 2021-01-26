@@ -26,25 +26,3 @@ svg
   .append("g")
   .attr("transform", "translate(50, " + xAxisTranslate + ")")
   .call(x_axis);
-
-// var barChart = svg
-//   .selectAll("rect")
-//   .data(dataset)
-//   .enter()
-//   .append("rect")
-//   .attr("y", (d) => svgHeight - yScale(d))
-//   .attr("height", (d) => yScale(d))
-//   .attr("width", barWidth - barPadding)
-//   .attr("transform", (d, i) => {
-//     var translate = [barWidth * i, 0];
-//     return "translate(" + translate + ")";
-//   }); // d is for data, i is for index
-
-// var text = svg
-//   .selectAll("text")
-//   .data(dataset)
-//   .enter()
-//   .append("text")
-//   .text((d) => d)
-//   .attr("y", (d, i) => svgHeight - d - 2)
-//   .attr("x", (d, i) => barWidth * i);
