@@ -3,7 +3,9 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: black;
+  color: white;
 }
 
 
@@ -20,11 +22,11 @@ a, a:visited, a:hover, a:active {
   height: 10vh;
   padding-top: 4vh;
   margin: 10px;
-  color: black;
   font-size: 1.5em;
   display: block;
 }
 
-pre {
-  width: 200px;
+svg {
+  padding: 20px;
+  background-color: white;
 }

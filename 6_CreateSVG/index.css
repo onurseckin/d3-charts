@@ -25,3 +25,8 @@ a, a:visited, a:hover, a:active {
   font-size: 1.5em;
   display: block;
 }
+
+.svg-container {
+  padding: 10px;
+  background-color: #FFC988;
+}
